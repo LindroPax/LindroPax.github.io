@@ -2,13 +2,13 @@ console.log("\n %c HeoMusic 开源静态音乐播放器 v1.5 %c https://github.c
 var local = false;
 
 if (typeof userId === 'undefined') {
-  var userId = "8152976493"; // 替换为实际的默认值
+  var userId = "9223397352"; // 歌单ID
 }
 if (typeof userServer === 'undefined') {
-  var userServer = "netease"; // 替换为实际的默认值
+  var userServer = "tencent"; // 播放器服务商,netease（网易云音乐）,tencent（腾讯）,kugou（酷狗）,xiami（小米音乐）,baidu（百度音乐）
 }
 if (typeof userType === 'undefined') {
-  var userType = "playlist"; // 替换为实际的默认值
+  var userType = "playlist"; // 播放列表类型,song（单曲）, playlist（歌单，默认）, album（专辑）, search（搜索结果）, artist（歌手）
 }
 
 if (typeof remoteMusic !== 'undefined' && remoteMusic) {
